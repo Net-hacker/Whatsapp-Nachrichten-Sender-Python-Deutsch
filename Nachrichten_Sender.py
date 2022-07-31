@@ -12,6 +12,7 @@ if os.path.exists("#Dateipfad hier/pywhatkit_dbs.txt"):
 keyboard = Controller()
 
 #Das eigentliche Script
+print('Script Made by Juri Zockt')
 print('Hast du dein Handy schon mit Whatsapp Web verbunden. Wenn Nein drück Strg + c')
 time.sleep(5)
 telephone = int(input('Bitte Nummer eingeben (Ohne Vorwahl und Leerzeichen): '))
