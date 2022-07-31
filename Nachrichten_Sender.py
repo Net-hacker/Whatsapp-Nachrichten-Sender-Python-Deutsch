@@ -5,8 +5,8 @@ import time
 import os
 
 #Das die .txt File gelöscht wird
-if os.path.exists("#Dateipfad hier/pywhatkit_dbs.txt"):
-    os.remove("#Dateipfad hier/pywhatkit_dbs.txt")
+if os.path.exists("pywhatkit_dbs.txt"):
+    os.remove("pywhatkit_dbs.txt")
 
 #Keyboard Variabel
 keyboard = Controller()
